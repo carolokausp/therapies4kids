@@ -65,10 +65,10 @@ return array(
 
         'mysql' => array(
             'driver'    => 'mysql',
-            'host'      => 'localhost',
-            'database'  => 'laravel',
-            'username'  => 'root',
-            'password'  => '',
+            'host'      => '104.236.53.180',
+            'database'  => 'forge',
+            'username'  => 'forge',
+            'password'  => 'Bu3staypc27JL3Ge8EP2',
             'charset'   => 'utf8',
             'collation' => 'utf8_unicode_ci',
             'prefix'    => '',
