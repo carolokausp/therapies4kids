@@ -5,7 +5,7 @@
                   <!--<div class="pageobject" data-top="-198px" data-left="150px" data-zindex="1000">
                       <img src="./assets/images/content/kid2.png" alt="">
                   </div>-->
-                   <h4 class="color-motive uppercase pull-left">Welcome to Therapies4Kids</h4>
+                   <h4 class="color-motive uppercase pull-left">Welcome to Therapies4Kids*</h4>
                    <div class="pull-right socials-top">
                        <div class="pull-left">
                            <a href="https://twitter.com/home?status=Check%20this%20awesome%20Daycare%20template!%20http://tinyurl.com/kaqotxl%0A%20" target="_blank" class="btn btn-primary uppercase"  data-toggle="tooltip" data-placement="top" title="Tooltip on top">Share <i class="fa fa-twitter"></i></a>
