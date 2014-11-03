@@ -1,0 +1,30 @@
+## YAML Template.
+---
+--- 
+global: 
+  env: 
+    - 
+      LARAVEL_ENV: production
+web1: 
+  after_deploy: 
+    - "rm -f storage/cache/*"
+    - "rm -f storage/views/*"
+  before_deploy: 
+    - "php artisan migrate:install"
+    - "php artisan migrate"
+  document_root: /public
+  name: therapies4kids
+  php_extensions: 
+    - pdo_mysql
+    - mcrypt
+    - eaccelerator
+    - memcached
+    - curl
+  php_version: "5.3.8"
+  shared_writable_dirs: 
+    - /storage/cache
+    - /storage/database
+    - /storage/logs
+    - /storage/sessions
+    - /storage/views
+    - /storage/work
